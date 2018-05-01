@@ -1,4 +1,4 @@
-This repository contains: 
+This repository showcases how one might insert an advertisement to an application and contains: 
         - a cyber security paper on repackaged applications
         - apks of Google Play Store's Travel Frog, Mi Store's Travel Frog, HelloWorld, and HackedToast
         - decompiled files in the RepackagingDemo folder
@@ -9,3 +9,6 @@ This repository contains:
 
 Note:
         - the recording of Mi Store's Travel Frog shows a grey screen instead of advertisement because during my exploration I upgraded to a new MIUI version and the AdServer.apk in Travel Frog couldn't get installed. 
+
+Future Directions:
+	- the demo is a very benign demo that just flashes a local advertisement image. Perhaps in the future a direction would be to insert a more full blown malicious code base. What's impressive about Mi Store's Travel Frog is that it comes with two full blown apks (advertisement and analytics) that don't disrupt the game itself. The advertisement wrapper is quite complex in that it makes api calls to Xiaomi servers to grab the advertisement images and upon clicking on the advertisement a system download of an online store application is made. Apart from advertisement wrappers, it may be of interest to explore how other malicious actions such as data logging can be inserted as well.
