@@ -1,0 +1,11 @@
+-keep class com.xiaomi.ad.** {
+    *;
+}
+
+-keep class com.miui.zeus.**{
+    *;
+}
+
+# do not remove any classes
+-dontshrink
+-dontwarn

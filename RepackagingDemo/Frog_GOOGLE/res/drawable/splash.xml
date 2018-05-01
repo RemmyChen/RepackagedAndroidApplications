@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list n1:opacity="opaque"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap n1:gravity="center" n1:src="@drawable/icon" />
+    </item>
+</layer-list>

@@ -1,0 +1,11 @@
+This repository contains: 
+        - a cyber security paper on repackaged applications
+        - apks of Google Play Store's Travel Frog, Mi Store's Travel Frog, HelloWorld, and HackedToast
+        - decompiled files in the RepackagingDemo folder
+        - source code of HelloWorld and HackedToast in the AndroidStudioApps folder
+        - a Mi advertisement SDK demo I found in the MiAdDemo folder
+        - recordings of original and repackaged applications 
+
+
+Note:
+        - the recording of Mi Store's Travel Frog shows a grey screen instead of advertisement because during my exploration I upgraded to a new MIUI version and the AdServer.apk in Travel Frog couldn't get installled. 
